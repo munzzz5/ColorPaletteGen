@@ -14,7 +14,8 @@
 </head>
 <body>
     % for hex_code in hex_codes:
-        <div class="color-box" style="background-color: {{hex_code}};"></div>
+        <div class="color-box" style="background-color: {{hex_code}};">
+        <p style="color:white;text-align:center;">{{hex_code}}</p></div>
     % end
 </body>
 </html>
